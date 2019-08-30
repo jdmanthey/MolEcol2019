@@ -5,8 +5,7 @@ sequences of unknown affinities. We will be using some DNA sequences that are un
 algorithm (BLAST) and a database of known sequences (available on [NCBI's website](https://www.ncbi.nlm.nih.gov/)). Below, I
 will cover a tutorial of using one of the BLAST algorithms with the online database, in the hopes that this information will
 allow you to complete a similar exercise with practice sequence(s) and questions for this week's computational activity. 
-Once you have gone through and read the tutorial, there is an exercise sheet in this repository (BLAST_activity.docx) to 
-work through. 
+Once you have gone through and read the tutorial, you will be given an exercise sheet to work through. 
 
 &nbsp;
 
