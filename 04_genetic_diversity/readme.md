@@ -1,6 +1,6 @@
 ## Estimating Genetic Diversity from Genomic Data 20 September 2019
 
-Today we will be working with some genomic data in order estimate population genetic diversity within and between populations.
+Today we will be working with some genomic data in order to estimate population genetic diversity within and between populations.
 First, do the following items:
 1. Create a directory called 'diversity' somewhere (e.g., on the desktop).
 2. Open up RStudio and set your working directory to the newly-created directory.
