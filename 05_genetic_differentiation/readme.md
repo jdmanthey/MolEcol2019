@@ -27,7 +27,7 @@ Set the populations (and make sure you have 4):
     
 ### Distribution
 
-To give you a better understanding of where these samples are coming from in a taxonomic viewpoint. Below is a map
+To give you a better understanding of where these samples are coming from in a taxonomic viewpoint, below is a map
 showing the distribution of the Brown Creeper (_Certhia americana_). This species has two main lineages, denoted here by the
 blue and red colors:
 
