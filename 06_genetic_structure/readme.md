@@ -34,7 +34,7 @@ many PCs to retain, choose 20. This is an amount that maintains most of the vari
 number of individuals we have sampled. Then, the program will show you a Bayesian Information Criterion (BIC) plot. The BIC
 value will be _lowest_ where the number of genetic clusters is most supported. Choose that number of K (hopefully = 2). 
 
-    grp <- find.clusters(x,max.n.clust=10,n.iter=1e5)
+    grp <- find.clusters(x,max.n.clust=6,n.iter=1e5)
     
 Next, we will choose the number of PCs again (choose 20 again) as well as the number of discriminant factors to include, which
 has to be less than K. Choose the highest number you can based on the value of K you chose.
