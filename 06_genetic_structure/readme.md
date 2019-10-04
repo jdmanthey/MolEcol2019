@@ -17,6 +17,11 @@ install these two packages and a bunch of dependencies.
     BiocManager::install("LEA")
     install.packages("adegenet")
     
+Load the libraries:
+    
+    require("LEA")
+    require("adegenet")
+    
 ### Using PCA
 
 First, we will use a method called discriminant analysis of principal components (DAPC). This is an extension of the principle
