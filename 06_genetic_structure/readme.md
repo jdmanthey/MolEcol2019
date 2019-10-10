@@ -49,12 +49,12 @@ has to be less than K. Choose the highest number you can based on the value of K
 Now, we'll plot the DAPC results in two ways. The first will be the principal components themselves, colored to the group that
 each individual (here each point) belongs to:
     
-    plot(dapc1$tab[grp$grp==1,1:2], xlim=c(min(dapc1$tab[,1]), max(dapc1$tab[,1])), ylim=c(min(dapc1$tab[,2]), max(dapc1$tab[,2])), col="blue", pch=19)
-    points(dapc1$tab[grp$grp==2,1:2], col="red", pch=19)
+    plot(dapc1$tab[grp$grp==1,1:2], xlim=c(min(dapc1$tab[,1]), max(dapc1$tab[,1])), ylim=c(min(dapc1$tab[,2]), max(dapc1$tab[,2])), col="blueviolet", pch=19)
+    points(dapc1$tab[grp$grp==2,1:2], col="orange2", pch=19)
 
 We can also look at a STRUCTURE-like type of plot showing the assignment of each individual to the two genetic clusters:
     
-    compoplot(dapc1, col=c("blue", "red"))
+    compoplot(dapc1, col=c("blueviolet", "orange2"))
 
 If you already looked at the text input file, you know we have three individuals per population from 8 localities:
     1. Utah (individuals 1-3)
