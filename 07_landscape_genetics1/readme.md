@@ -170,6 +170,6 @@ Redo the classification of the layer if you don't like the results.
 If the test object looks good and reasonable, we can write it to a new file:
 
     writeRaster(test, file="test")
-   
-   
+
+If approved, save a pdf file of the plot of your conductance raster, and email to Dr. Manthey to be shown on Friday.
    
