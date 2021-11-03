@@ -327,7 +327,7 @@ Remember that sampling depth can influence estimates of diversity, especially if
 Let's plot some rarefactions curves to take one look at this factor:
 
 	par(mar=c(4.5,4.5,3,3)) # plotting margins
-	rarecurve(t(otu_table(ps)), step=5, cex=0.5, label=F, xlim=c(0,4000))
+	rarecurve(otu_table(ps), step=5, cex=0.5, label=F, xlim=c(0,4000))
 
 If we had the full datasets, the picture may look more completely sampled. Anyways, there are ways of using the full dataset
 and also ways of rarefying prior to estimating alpha diversity and beta diversity. We will not get into those methods in these
